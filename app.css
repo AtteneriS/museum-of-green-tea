@@ -1,0 +1,22 @@
+body {
+    background-color: #F0F8EC;
+    font-family: "Lato";
+}
+
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#mainNavbar .nav-link {
+    color: #ffff;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #4A7C59;
+}
+
+#mainNavbar .navbar-brand {
+    color: #4A7C59;
+}
