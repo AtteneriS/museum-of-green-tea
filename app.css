@@ -27,6 +27,10 @@ body {
     font-weight: 200;
 }
 
+.sectionContent {
+    padding: 0 6rem;
+}
+
 @media (max-width:1400px) {
     #headingText h1 {
         font-size: 2.5rem;
