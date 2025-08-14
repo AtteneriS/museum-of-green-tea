@@ -39,6 +39,10 @@ h2 {
     font-weight: 300;
 }
 
+.sectionContent p {
+    line-height: 2;
+}
+
 @media (max-width:1400px) {
     #headingText h1 {
         font-size: 2.5rem;
