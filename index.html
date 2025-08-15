@@ -113,7 +113,7 @@
             </div>
         </section>
     </main>
-    <footer class="container-fluid text-center bg-secondary p-3 text-muted">
+    <footer class="container-fluid text-center p-3">
         © 2025 Copyright: <a class="text-reset fw-bold" href="https://github.com/AtteneriS">Atteneri</a>
     </footer>
     <!-- Bootstrap JS -->
@@ -121,6 +121,20 @@
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRzC0z33vQy8K1p4Ue2f8yFp/j/jM1GgS4=" crossorigin="anonymous"></script>
+
+    <!-- Top navigation bar scroll script -->
+    <script>
+        window.addEventListener('scroll', function () {
+            var mainNavbar = document.getElementById('mainNavbar');
+            if (window.scrollY > mainNavbar.offsetHeight) {
+                mainNavbar.classList.add('scrolled');
+            } else {
+                mainNavbar.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 
 </html>
