@@ -8,7 +8,7 @@ body {
     font-weight: 300;
     font-size: 1.5rem;
     font-family: "Lato", sans-serif;
-    transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
 #mainNavbar .nav-link:hover {
